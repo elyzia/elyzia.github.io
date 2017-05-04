@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>搭建博客 | elyzia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="教程文档：http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html 静态博客生成器Hexo 是一个基于 Node.js 开发一个命令行程序，是一个静态博客生成器，可以用来快速构建一个个人博客。  https://hexo.io/zh-cn/  安装：npm install hexo-cli -g  hexo init 博客目录名称">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建博客">
+<meta property="og:url" content="http://yoursite.com/2017/03/27/搭建博客/index.html">
+<meta property="og:site_name" content="elyzia">
+<meta property="og:description" content="教程文档：http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html 静态博客生成器Hexo 是一个基于 Node.js 开发一个命令行程序，是一个静态博客生成器，可以用来快速构建一个个人博客。  https://hexo.io/zh-cn/  安装：npm install hexo-cli -g  hexo init 博客目录名称">
+<meta property="og:updated_time" content="2017-04-23T08:15:43.582Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搭建博客">
+<meta name="twitter:description" content="教程文档：http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html 静态博客生成器Hexo 是一个基于 Node.js 开发一个命令行程序，是一个静态博客生成器，可以用来快速构建一个个人博客。  https://hexo.io/zh-cn/  安装：npm install hexo-cli -g  hexo init 博客目录名称">
+  
+    <link rel="alternate" href="/atom.xml" title="elyzia" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">elyzia</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">人生在勤，不索何获。</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-搭建博客" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/27/搭建博客/" class="article-date">
+  <time datetime="2017-03-27T11:30:26.000Z" itemprop="datePublished">2017-03-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      搭建博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>教程文档：<a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html</a></p>
+<h3 id="静态博客生成器"><a href="#静态博客生成器" class="headerlink" title="静态博客生成器"></a>静态博客生成器</h3><p>Hexo 是一个基于 Node.js 开发一个命令行程序，是一个静态博客生成器，可以用来快速构建一个个人博客。</p>
+<ul>
+<li><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></p>
+<ul>
+<li><p>安装：npm install hexo-cli -g</p>
+</li>
+<li><p>hexo init 博客目录名称<br>  该过程需要联网，等到一下即可,它有一个基本的博客模板，在 Github 上，需要联网下载<br>  下载完成之后，它会自动执行 npm install 命令安装依赖包</p>
+</li>
+<li>cd 博客目录</li>
+<li>hexo serve<br>  在本地启动当前博客，可以在本地实现预览效果</li>
+<li>hexo new 文章名称<br>  不要加 .md<br>  它会自动帮你加</li>
+<li><p>hexo generate<br>  生成静态文件<br>  该命令会把所有的 md 文件以及其他资源生成到 public 目录中<br>  生成结束之后可以把 public 丢到一个 Web 容器中，然后就可以直接访问了<br>  就不需要依赖于 hexo 了</p>
+<h3 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h3><p>Github Pages 提供了一个免费的静态资源托管服务，可以把你的静态资源托管到这个服务上。</p>
+<p>新建一个仓库<br>仓库名必须是：你的Github用户名.github.io</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>在settings中复制HTTPS中的地址</li>
+</ul>
+<ul>
+<li>配置Git<ul>
+<li>1.git config –global user.name “Your Real Name”（”你的用户名”）</li>
+<li>2.git config –global user.email you@email.address（email后面跟你注册的邮箱）</li>
+</ul>
+</li>
+</ul>
+<h3 id="方式1"><a href="#方式1" class="headerlink" title="方式1"></a>方式1</h3><ul>
+<li><p>重新打开命令行窗口，输入以下命令</p>
+<ul>
+<li>git clone 粘贴的HTTPS地址（要记得在哪个盘下面，例如C盘）</li>
+<li>在C盘中找到 elyzia.github.io（刚创建的用户名）的文件夹，打开复制里面的.git文件</li>
+<li>把所复制的文件放到blog中的public文件夹中</li>
+<li>继续在public文件夹中，重新打开命令窗口中键入一下命令<ul>
+<li>git status</li>
+<li>git add .</li>
+<li>git commit -m “bolg.initialize”</li>
+<li>git status</li>
+<li>git push</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>如若成功则可以使用域名显示页面</p>
+</li>
+</ul>
+<p>另一种方式</p>
+<ul>
+<li>在命令窗口中进入blog，键入<ul>
+<li>git init</li>
+<li>git remote add origin 之前复制的地址<ul>
+<li>origin 表示给该地址起了个名字</li>
+</ul>
+</li>
+<li>git push origin master<ul>
+<li>把本地仓库推送到远端仓库：</li>
+</ul>
+</li>
+<li>git add .</li>
+<li>git commit -m “bolg.initialize”</li>
+</ul>
+</li>
+</ul>
+<h3 id="如果要修改或添加里面的东西，以下步骤"><a href="#如果要修改或添加里面的东西，以下步骤" class="headerlink" title="如果要修改或添加里面的东西，以下步骤"></a>如果要修改或添加里面的东西，以下步骤</h3><ul>
+<li>进入命令窗口blog文件中，键入以下命令<ul>
+<li>hexo generate</li>
+</ul>
+</li>
+<li>其次进入public中，键入以下命令<ul>
+<li>git status</li>
+<li>git add .</li>
+<li>git commit -m “随意写”</li>
+<li>git push</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/27/搭建博客/" data-id="cj2aldtif0002x8jiakngzj6t" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/05/04/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/03/24/git/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">git</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">五月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/05/04/jQuery介绍篇/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/04/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/27/搭建博客/">搭建博客</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/24/git/">git</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 elyzia<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
